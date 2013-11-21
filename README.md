@@ -2,7 +2,7 @@
 
 # toString
 
-A minimal Javascript component for converting anyting to a string
+A minimal Javascript component for converting anything to a string
 
 ## Installation
 

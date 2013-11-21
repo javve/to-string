@@ -5,7 +5,7 @@
   "authors": [
     "Jonny Strömberg <jonny.stromberg@gmail.com>"
   ],
-  "description": "A minimal function for converting anyting to a string",
+  "description": "A minimal function for converting anything to a string",
   "keywords": [
     "tostring",
     "to-string"

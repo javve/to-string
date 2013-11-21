@@ -1,7 +1,7 @@
 {
   "name": "to-string",
   "repo": "javve/to-string",
-  "description": "A minimal function for converting anyting to a string",
+  "description": "A minimal function for converting anything to a string",
   "version": "0.1.0",
   "keywords": [],
   "dependencies": {},
