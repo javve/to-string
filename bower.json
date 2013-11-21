@@ -1,0 +1,23 @@
+{
+  "name": "to-string",
+  "main": "dist/to-string.js",
+  "version": "0.1.0",
+  "authors": [
+    "Jonny Strömberg <jonny.stromberg@gmail.com>"
+  ],
+  "description": "A minimal function for converting anyting to a string",
+  "keywords": [
+    "tostring",
+    "to-string"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/javve/to-string",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>toString-tests</title>
+    <link rel="stylesheet" href="../build/build.css" />
+</head>
+<body>
+
+    <div id="mocha"></div>
+    <script src="../build/build.js"></script>
+    <script>
+        var toString = require('to-string');
+    </script>
+    <!-- <script src="../dist/to-string.js"></script> Remove to test dist-version -->
+    <script src="mocha.js"></script> <!-- this specific version is needed for grunt-mocha (wtf...) -->
+    <script>
+
+        if (navigator.userAgent.indexOf('PhantomJS') < 0) {
+            // This version is needed to not get "Out of stack space" error in IE
+            require('mocha');
+        }
+
+        mocha.setup('bdd');
+        expect = require('expect.js');
+    </script>
+
+    <script src="test.default.js"></script>
+
+    <script>
+        if (navigator.userAgent.indexOf('PhantomJS') < 0) {
+            mocha.run();
+        }
+    </script>
+</body>
+</html>
